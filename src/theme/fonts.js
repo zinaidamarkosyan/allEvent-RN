@@ -1,0 +1,7 @@
+export const FONT_EXO_BLACK = 'Exo2-Black'
+export const FONT_EXO_BOLD = 'Exo2-Bold'
+export const FONT_EXO_LIGHT = 'Exo2-Light'
+export const FONT_EXO_MEDIUM = 'Exo2-Medium'
+export const FONT_EXO_REGULAR = 'Exo2-Regular'
+export const FONT_EXO_THIN = 'Exo2-Thin'
+export const FONT_EXO_SEMIBOLD = 'Exo2-SemiBold'

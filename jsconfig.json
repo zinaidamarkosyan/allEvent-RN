@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "ESNext",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/apis/*": ["src/apis/*"],
+      "@/theme/*": ["src/theme/*"],
+      "@/assets/*": ["src/assets/*"],
+      "@/hooks": ["src/hooks/index"],
+      "@/helpers/*": ["src/helpers/*"],
+      "@/screens/*": ["src/screens/*"],
+      "@/context": ["src/context/index"],
+      "@/components/*": ["src/components/*"],
+      "@/navigation/*": ["src/navigation/*"],
+      "@/Notifications/*": ["src/Notifications/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "913047774132",
+    "project_id": "alleven-eec10",
+    "storage_bucket": "alleven-eec10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913047774132:android:0aff6425177cd3dad948e1",
+        "android_client_info": {
+          "package_name": "com.alleven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913047774132-s6vdld2vmvv7d72t58u1ss4tl8trovva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Cu8uwQ5VPIpXjauEPlcgESkRD97pAnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913047774132-s6vdld2vmvv7d72t58u1ss4tl8trovva.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "913047774132-7dhddedoqvgu1cemrlu2obf8cdk4sbs9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Alleven"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

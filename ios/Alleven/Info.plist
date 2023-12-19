@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Alleven</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>alleven</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>alleven</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>whatsapp</string>
+		<string>mailto</string>
+		<string>instagram</string>
+		<string>instagram-stories</string>
+		<string>fb</string>
+		<string>facebook-stories</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Alleven запрашивает доступ к камере. Это позволит вам создавать события с фотографиями.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Включение Face ID обеспечивает вам быстрый и безопасный доступ к вашей учетной записи.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Ваше местоположение необходимо для определения ближайших к вам событий.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Ваше местоположение необходимо для определения ближайших к вам событий.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Ваше местоположение необходимо для определения ближайших к вам событий.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Нам нужно разрешение на передачу звука через микрофон, например, во время прямой трансляции.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Нам нужно разрешение на доступ к библиотеке фотографий, чтобы изменить изображение профиля, загружать и сохранять фотографии из записей в библиотеку фотографий.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Нам нужно разрешение на доступ к библиотеке фотографий, чтобы изменить изображение профиля, загружать и сохранять фотографии из записей в библиотеку фотографий.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Exo2-Black.ttf</string>
+		<string>Exo2-BlackItalic.ttf</string>
+		<string>Exo2-Bold.ttf</string>
+		<string>Exo2-BoldItalic.ttf</string>
+		<string>Exo2-ExtraBold.ttf</string>
+		<string>Exo2-ExtraBoldItalic.ttf</string>
+		<string>Exo2-ExtraLight.ttf</string>
+		<string>Exo2-ExtraLightItalic.ttf</string>
+		<string>Exo2-Italic.ttf</string>
+		<string>Exo2-Light.ttf</string>
+		<string>Exo2-LightItalic.ttf</string>
+		<string>Exo2-Medium.ttf</string>
+		<string>Exo2-MediumItalic.ttf</string>
+		<string>Exo2-Regular.ttf</string>
+		<string>Exo2-SemiBold.ttf</string>
+		<string>Exo2-SemiBoldItalic.ttf</string>
+		<string>Exo2-Thin.ttf</string>
+		<string>Exo2-ThinItalic.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
